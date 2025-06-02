@@ -1,15 +1,16 @@
+#Create Restaurant Database
 
 library(RSQLite)
 
 #Create data frame
-#Branches
+##Branches
 branches_df <-data.frame(
   branch_id = 1:2,
   branch_name = c("BKK", "HTY"),
   phone = c("089-550-0551", "089-550-0552")
 )
 
-#Staff
+##Staff
 staffs_df <- data.frame(
   staff_id = 1:10,
   staff_name = c("Aom", "Ko", "Bee", "Nat", "Ton", "Jay", "Kaew", "Tai", "Chon", "Mod"),
@@ -19,7 +20,7 @@ staffs_df <- data.frame(
   
 )
 
-#Customer
+##Customer
 customers_df <- data.frame(
   customer_id = 1:20,
   customer_names = c("Anan", "Bodin", "Chai", "Dao", "Ek", 
@@ -37,7 +38,7 @@ customers_df <- data.frame(
   
 )
 
-#Menu
+##Menu
 menus_df <- data.frame(
   menu_id = 1:10,
   menu_name = c(
@@ -50,7 +51,7 @@ menus_df <- data.frame(
                   6.99, 1.99, 2.49, 3.49, 2.99)
 )
 
-#Order
+##Order
 orders_df <- data.frame(
   order_id = 1:20,
   customer_id = 1:20,
@@ -69,7 +70,7 @@ con <- dbConnect(SQLite(), "restaurant.db")
 
 
 
-#write table into DB
+#Write table into DB
 dbWriteTable(con, "branches", branches_df)
 dbWriteTable(con, "customers", customers_df)
 dbWriteTable(con, "staffs", staffs_df)
