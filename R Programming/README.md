@@ -1,4 +1,4 @@
-# My R Proramming projecton this data science bootcamp.
-1. Pizza Chatbot
-2. Pao Ying Chub Game
+# R Proramming projects
+1. Pizza Chatbot [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/Pizza_Chatbot.R)
+2. Rock Paper Scissor Game
 3. Create Restaurant Database
