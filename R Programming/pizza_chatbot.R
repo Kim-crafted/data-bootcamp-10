@@ -1,4 +1,5 @@
-#Chatbot for ordering Pizza
+#Create Chatbot for ordering Pizza
+
 ##Create menu
 piz <- c("Margherita Pizza", "Pepperoni Pizza", "Vegetarian Delight", "BBQ Chicken Pizza", "Four Cheese Pizza")
 dri <- c("Coke", "Diet Coke", "Lemonade", "Iced Tea", "Sparkling Water")
