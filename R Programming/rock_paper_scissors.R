@@ -1,11 +1,11 @@
 
 #Create Rock Paper Scissors Game
+
 hands<-c("rock", "paper", "scissors")
 comp_score <- 0
 user_score <- 0
 
 #Write function
-
 game <- function () {
   print("Let's roll")
   while (user_score < 5) {
