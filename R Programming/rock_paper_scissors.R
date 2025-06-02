@@ -1,5 +1,5 @@
 
-##Rock Paper Scissors Game
+#Create Rock Paper Scissors Game
 hands<-c("rock", "paper", "scissors")
 comp_score <- 0
 user_score <- 0
