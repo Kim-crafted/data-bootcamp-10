@@ -1,3 +1,5 @@
+install.packages("tidyverse")
+install.packages("nycflights13")
 library(tidyverse)
 library(nycflights13)
 
