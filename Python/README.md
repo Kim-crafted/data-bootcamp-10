@@ -6,3 +6,6 @@
 3. OOP:ATM
    - [Script](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/Python/oop_atm.py)
    - [Open in Colab](https://colab.research.google.com/drive/1TJqM0QgupI7SgRTH2XDvyYPeK4iWWykI?usp=sharing)
+4. Public API
+   - [Script](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/Python/public_api.py)
+   - [Open in Colab](https://colab.research.google.com/drive/12T755B3jA59QYb6JtWlPEV_iae-Yk44t?usp=sharing)
