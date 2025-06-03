@@ -5,3 +5,4 @@
 4. Data Transformation for Answering Business Questions [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/nycflights13.R)
 5. Data Visualization with ggplot2 [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/data_viz.md)
    - PDF: [Link](https://raw.githubusercontent.com/Kim-crafted/data-bootcamp-10/eacea9ad707610be831df75ee4ce4214e37a35ea/R%20Programming/DataViz.pdf)
+6. Machine Learning: Logistic Regression with Titanic dataset
