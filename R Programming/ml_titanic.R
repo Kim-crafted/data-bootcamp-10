@@ -2,7 +2,7 @@ install.packages("titanic")
 library(titanic)
 head(titanic_train)
 
---------------------
+#--------------------
 #Drop NA
 titanic_train <- na.omit(titanic_train)
   
