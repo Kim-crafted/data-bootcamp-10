@@ -4,3 +4,5 @@
 3. Create Restaurant Database [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/restaurant_database.R)
 4. Data Transformation for Answering Business Questions [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/nycflights13.R)
 5. Data Visualization with ggplot2
+   - [Script](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/data_viz.md)
+   - 
