@@ -3,7 +3,7 @@
 2. Pao Ying Chub Game
    - [Script](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/Python/pao_ying_chub.py)
    - [Open in Colab](https://colab.research.google.com/drive/1NSdeN4OPpR-OqIQy4WFFwnucZOuAblzM?usp=sharing)
-3. OOP:ATM
+3. OOP: ATM
    - [Script](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/Python/oop_atm.py)
    - [Open in Colab](https://colab.research.google.com/drive/1TJqM0QgupI7SgRTH2XDvyYPeK4iWWykI?usp=sharing)
 4. Public API
