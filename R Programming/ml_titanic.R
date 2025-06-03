@@ -1,3 +1,4 @@
+install.packages("titanic")
 library(titanic)
 head(titanic_train)
 
@@ -6,7 +7,7 @@ head(titanic_train)
 titanic_train <- na.omit(titanic_train)
   
 #split data
-set.seed(12)
+set.seed(42)
 n <- nrow(titanic_train)
 id <- sample(1:n, n*0.5)
 train_data <- titanic_train[id, ]
@@ -28,7 +29,7 @@ train_data$pred_survived <- ifelse(p_train > 0.5, 1, 0)
 train_acc <-(conM[1,1]+conM[2,2]) / sum(conM)
 train_prec <-conM[2,2] / (conM[1, 2] + conM[2,2])
 train_rec <- conM[2,2] / (conM[2, 1] + conM[2, 2])
-train_F1 <- 2 * (train_prec*train_prec)/(train_prec+train_rec)
+train_F1 <- 2 * (train_prec*train_rec)/(train_prec+train_rec)
 
 cat("Accuracy: ", train_acc,
    "\nPrecision: ", train_prec,
@@ -48,7 +49,7 @@ test_data$pred_survived <- ifelse(p_test > 0.5, 1, 0)
 test_acc <-(conM_test[1,1]+conM_test[2,2]) / sum(conM_test)
 test_prec <-conM_test[2,2] / (conM_test[1, 2] + conM_test[2,2])
 test_rec <- conM_test[2,2] / (conM_test[2, 1] + conM_test[2, 2])
-test_F1 <- 2 * (test_prec*test_prec)/(test_prec+test_rec)
+test_F1 <- 2 * (test_prec*test_rec)/(test_prec+test_rec)
 
 cat("Accuracy: ", test_acc,
     "\nPrecision: ", test_prec,
@@ -61,5 +62,7 @@ cat("F1 Score: ",
     "\nTesting: ", test_F1)
 
 #F1 Score:  
-#Training:  0.8535414 
-#Testing:  0.731393
+#Training:  0.7027027 
+#Testing:  0.7260274
+#Difference: 0.0233 (≈ 2.3%) 
+#Consider a good fit model
