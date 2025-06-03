@@ -1,6 +1,6 @@
 # R Proramming Projects
 1. Pizza Chatbot [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/pizza_chatbot.R)
-2. Rock Paper Scissor Game [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/rock_paper_scissors.R)
+2. Rock Paper Scissors Game [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/rock_paper_scissors.R)
 3. Create Restaurant Database [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/restaurant_database.R)
 4. Data Transformation for Answering Business Questions [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/nycflights13.R)
 5. Data Visualization with ggplot2 [Link](https://github.com/Kim-crafted/data-bootcamp-10/blob/main/R%20Programming/data_viz.md)
